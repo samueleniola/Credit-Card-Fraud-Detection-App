@@ -1,11 +1,11 @@
 import streamlit as st
 import numpy as np
-import joblib as jb
+import joblib 
 
 # Load model and scaler
-model = jb.load("fraud_detection_model.joblib")
-scaler = jb.load("scaler.joblib")
-features = jb.load("feature_names.joblib")
+model = joblib.load("fraud_detection_model.joblib")
+scaler = joblib.load("scaler.joblib")
+features = joblib.load("feature_names.joblib")
 
 st.title("Credit Card Fraud Detection App")
 
