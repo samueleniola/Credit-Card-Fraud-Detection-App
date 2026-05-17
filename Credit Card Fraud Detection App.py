@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+python -m pip install joblib
 import joblib as jb
 
 # Load model and scaler
